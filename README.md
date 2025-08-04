@@ -22,4 +22,5 @@ Then the Parser Class parses the file row by row, collecting the data into cours
   - Delete Course with Dependency Check
 - Bounds checking for data input (course objects)
 - Successor algorithm to reconnect tree after node removal
-- Self-balancing algorithms to check height, balance, and perform rotations
+- Algorithms to process tree height and balance
+- Algorithms to perform rotations to self-balance.
