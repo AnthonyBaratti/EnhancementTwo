@@ -13,13 +13,13 @@ Then the Parser Class parses the file row by row, collecting the data into cours
 
 
 ## Features
--Organizes Binary Search Tree by course ID (in order)
--User functionality to:
-  -Upload csv file
-  -Print Course List
-  -Find & Print Course by ID
-  -Add Custom Course
-  -Delete Course with Dependency Check
--Bounds checking for data input (course objects)
--Successor algorithm to reconnect tree after node removal
--Self-balancing algorithms to check height, balance, and perform rotations
+- Organizes Binary Search Tree by course ID (in order)
+- User functionality to:
+  - Upload csv file
+  - Print Course List
+  - Find & Print Course by ID
+  - Add Custom Course
+  - Delete Course with Dependency Check
+- Bounds checking for data input (course objects)
+- Successor algorithm to reconnect tree after node removal
+- Self-balancing algorithms to check height, balance, and perform rotations
