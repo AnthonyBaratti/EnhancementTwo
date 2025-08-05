@@ -16,11 +16,11 @@ The solution is to create a set of algorithms that will balance the tree, and ca
 - updateHeight() Updates the height attribute of each node when it is moved or inserted
 - getHeight() Uses the new height attribute added in the Node struct to return node height
 - getBalanceFactor() Uses the formula L.height - R.height. This will tell us if our tree is balanced or not.
-   - A balanced tree with have a balance factor of -1, 0, or 1.
+   - A balanced tree will have a balance factor of -1, 0, or 1.
    - An unbalanced tree will have a balance factor of < -1 (left heavy) or > 1 (right heavy)
    - Balance factor will determine which rotation is required to rebalance the tree.
-- rotateRight() Rotates the tree with an RR rotation or an RL rotation
-- rotateLeft() Rotates the tree with an LL rotation aor an LR rotation
+- rotateRight() Rotates the node with a right rotation
+- rotateLeft() Rotates the node with a left rotation
 - balanceTree() This function uses the balance factor to determine which rotations should be applied
 
 Examples of the RR, RL, LL, and LR are commented into the code.  
