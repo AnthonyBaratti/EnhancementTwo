@@ -14,14 +14,14 @@ User functionality was added in Enhancement One ([See Enhancement One Here](http
 The solution is to create a set of algorithms that will balance the tree, and call them within the insert node and delete node wrapper functions <br>
 #### Added Functionality
 - [updateHeight()](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L384) Updates the height attribute of each node when it is moved or inserted
-- getHeight() Uses the new height attribute added in the Node struct to return node height
-- getBalanceFactor() Uses the formula L.height - R.height. This will tell us if our tree is balanced or not.
+- [getHeight()](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L339) Uses the new height attribute added in the Node struct to return node height
+- [getBalanceFactor()](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L363) Uses the formula L.height - R.height. This will tell us if our tree is balanced or not.
    - A balanced tree will have a balance factor of -1, 0, or 1.
    - An unbalanced tree will have a balance factor of < -1 (left heavy) or > 1 (right heavy)
    - Balance factor will determine which rotation is required to rebalance the tree.
-- rotateRight() Rotates the node with a right rotation
-- rotateLeft() Rotates the node with a left rotation
-- balanceTree() This function uses the balance factor to determine which rotations should be applied
+- [rotateRight()](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L487) Rotates the node with a right rotation
+- [rotateLeft()](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L450) Rotates the node with a left rotation
+- [balanceTree()](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L512) This function uses the balance factor to determine which rotations should be applied
 
 Examples of the RR, RL, LL, and LR are commented into the code.  
 [Left rotate explanation](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L408)  
