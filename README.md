@@ -10,6 +10,18 @@ Then the Parser Class parses the file row by row, collecting the data into cours
 
 ## Artifact Enhancement: Self-Balancing Algorithms
 [Enhanced Artifact: Self-Balancing Algorithms](https://github.com/AnthonyBaratti/EnhancementTwo/tree/main/BinarySearchTreeEnhancementTwo)<br> <br>
+User functionality was added in Enhancement One ([See Enhancement One Here](https://github.com/AnthonyBaratti/EnhancementOne)), which could quickly degrade the search time complexity from O(log n) to O(n). Adding and delete nodes can lead to an unbalanced tree, where nodes are heavy down one side of the tree or down specific branches. <br><br>
+The solution is to create a set of algorithms that will balance the tree, and call them within the insert node and delete node wrapper functions <br>
+#### Added Functionality
+- updateHeight() Updates the height attribute of each node when it is moved or inserted
+- getHeight() Uses the new height attribute added in the Node struct to return node height
+- getBalanceFactor() Uses the formula L.height - R.height. This will tell us if our tree is balanced or not.
+   - A balanced tree with have a balance factor of -1, 0, or 1.
+   - An unbalanced tree will have a balance factor of < -1 (left heavy) or > 1 (right heavy)
+   - Balance factor will determine which rotation is required to rebalance the tree.
+- rotateRight() Rotates the tree with an RR rotation or an RL rotation
+- rotateLeft() Rotates the tree with an LL rotation aor an LR rotation
+- balanceTree() This function uses the balance factor to determine which rotations should be applied
 
 
 ## Features
