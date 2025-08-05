@@ -23,8 +23,7 @@ The solution is to create a set of algorithms that will balance the tree, and ca
 - rotateLeft() Rotates the tree with an LL rotation aor an LR rotation
 - balanceTree() This function uses the balance factor to determine which rotations should be applied
 <br>
-Examples of the RR, RL, LL, and LR are commented into the code.
-[Line 391 & 486](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp) <br>
+Examples of the RR, RL, LL, and LR are commented into the code. <br>
 For a quick visual on how an RL rotation works, see Artifact Two Enhancement Narrative
 [Section 4](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/Artifact%20Two%20Enhancement%20Narrative.pdf)<br>
 The enhancement was also modularized, using header files and breaking apart the components into their separate scripts based on functionality <br> <br>
