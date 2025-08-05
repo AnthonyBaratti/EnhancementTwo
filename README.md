@@ -22,7 +22,7 @@ The solution is to create a set of algorithms that will balance the tree, and ca
 - rotateRight() Rotates the tree with an RR rotation or an RL rotation
 - rotateLeft() Rotates the tree with an LL rotation aor an LR rotation
 - balanceTree() This function uses the balance factor to determine which rotations should be applied
-<br>
+
 Examples of the RR, RL, LL, and LR are commented into the code.  
 [Line 391 & 486](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp)
 
