@@ -407,7 +407,7 @@ void BinarySearchTree::updateHeight(Node* node) {
 
  /*
   * LEFT ROTATE FUNCTION
-  * leftRotate() function is designed to be called from balanceTree function
+  * rotateLeft() function is designed to be called from balanceTree function
   * The balanceTree function will determine the imbalance, and if leftRotation
   * is needed it will be called from the balancing wrapper class, which will be called
   * after each insert or delete to determine balancing needs of the tree.
@@ -465,7 +465,7 @@ Node* BinarySearchTree::rotateLeft(Node* x) {
 
 /*
  * RIGHT ROTATE FUNCTION
- * rightRotate() function is called if the balance factor is > 1
+ * rotateRight() function is called if the balance factor is > 1
  * Example (LL): unbalanced Left tree: C      Balanced left tree:  B
  *                                    / (h=0)                     / \
  *                            (h=2)  B                     (h=1) A   C (h=1)
@@ -561,3 +561,4 @@ Node* BinarySearchTree::balanceTree(Node* node) {
 	//If no rotations are required, i.e. tree is balanced:
 	return node;
 }
+
