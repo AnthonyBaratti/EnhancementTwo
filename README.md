@@ -22,6 +22,7 @@ The solution is to create a set of algorithms that will balance the tree, and ca
 - rotateRight() Rotates the tree with an RR rotation or an RL rotation
 - rotateLeft() Rotates the tree with an LL rotation aor an LR rotation
 - balanceTree() This function uses the balance factor to determine which rotations should be applied
+Examples of the RR, RL, LL, and LR are commented into the code. For a quick visual on how an RL rotation works, see Artifact Two Enhancement Narrative [Section 4](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/Artifact%20Two%20Enhancement%20Narrative.pdf)
 
 
 ## Features
