@@ -39,6 +39,11 @@ The enhancement was also modularized, using header files and breaking apart the 
 - Parser.cpp
 - main.cpp (User menu & local user input variables)
 
+#### NOTE
+There is also a test commented out in the code to ensure balance is preserved.  
+[Balance Factor Print Test](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L134)  
+Uncommenting these two lines, then performing a "Print Course List" menu option 2 will show the balance of every course in the tree. A perfectly balanced tree that maintains O(log n) should have all balance factors as -1, 0, or 1.
+
 
 ## Features
 - Organizes Binary Search Tree by course ID (in order)
