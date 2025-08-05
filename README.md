@@ -13,7 +13,7 @@ Then the Parser Class parses the file row by row, collecting the data into cours
 User functionality was added in Enhancement One ([See Enhancement One Here](https://github.com/AnthonyBaratti/EnhancementOne)), which could quickly degrade the search time complexity from O(log n) to O(n). Adding and deleting nodes can lead to an unbalanced tree, where nodes are heavy down one side of the tree or down a subtree. <br><br>
 The solution is to create a set of algorithms that will balance the tree, and call them within the insert node and delete node wrapper functions <br>
 #### Added Functionality
-- updateHeight() Updates the height attribute of each node when it is moved or inserted
+- [updateHeight()](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L384) Updates the height attribute of each node when it is moved or inserted
 - getHeight() Uses the new height attribute added in the Node struct to return node height
 - getBalanceFactor() Uses the formula L.height - R.height. This will tell us if our tree is balanced or not.
    - A balanced tree will have a balance factor of -1, 0, or 1.
