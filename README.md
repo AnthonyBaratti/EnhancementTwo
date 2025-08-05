@@ -21,8 +21,18 @@ The solution is to create a set of algorithms that will balance the tree, and ca
    - Balance factor will determine which rotation is required to rebalance the tree.
 - rotateRight() Rotates the tree with an RR rotation or an RL rotation
 - rotateLeft() Rotates the tree with an LL rotation aor an LR rotation
-- balanceTree() This function uses the balance factor to determine which rotations should be applied <br>
-Examples of the RR, RL, LL, and LR are commented into the code. For a quick visual on how an RL rotation works, see Artifact Two Enhancement Narrative [Section 4](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/Artifact%20Two%20Enhancement%20Narrative.pdf)
+- balanceTree() This function uses the balance factor to determine which rotations should be applied
+<br>
+Examples of the RR, RL, LL, and LR are commented into the code. [Line 391 & 486](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp) <br>
+For a quick visual on how an RL rotation works, see Artifact Two Enhancement Narrative [Section 4](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/Artifact%20Two%20Enhancement%20Narrative.pdf)<br>
+The enhancement was also modularized, using header files and breaking apart the components into their separate scripts based on functionality <br> <br>
+====Contents====
+- BinarySearchTree.h (Node structure and BST class declarations)
+- BinarySearchTree.cpp
+- Course.h (Course structure)
+- Parser.h (Parser class declarations)
+- Parser.cpp
+- main.cpp (User menu & local user input variables)
 
 
 ## Features
