@@ -29,6 +29,7 @@ Examples of the RR, RL, LL, and LR are commented into the code.
 
 For a quick visual on how an RL rotation works, see Artifact Two Enhancement Narrative  
 [Section 4](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/Artifact%20Two%20Enhancement%20Narrative.pdf)  
+<br>
 The enhancement was also modularized, using header files and breaking apart the components into their separate scripts based on functionality <br> <br>
 ====Contents==== <br>
 
