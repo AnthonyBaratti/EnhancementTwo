@@ -24,7 +24,7 @@ The solution is to create a set of algorithms that will balance the tree, and ca
 - balanceTree() This function uses the balance factor to determine which rotations should be applied
 
 Examples of the RR, RL, LL, and LR are commented into the code.  
-[Left rotate explanation](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L391)  
+[Left rotate explanation](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L408)  
 [Right rotate explanation](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L467)  
 
 For a quick visual on how an RL rotation works, see Artifact Two Enhancement Narrative  
