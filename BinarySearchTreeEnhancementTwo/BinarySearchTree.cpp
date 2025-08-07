@@ -441,7 +441,7 @@ void BinarySearchTree::updateHeight(Node* node) {
   *
   *
   *
-  *  The example above is where the subTree comes into play. A = x, C = y, and B = subT.
+  *  The example above is where the subTree comes into play. A = x, B = y, and C = subT.
   *  x becomes y, y becomes x->left, and subT (which is assigned to y->left child) becomes x->right.
   *  Then update the heights, and get the balance factor (2-1 = 1, thus balanced).
   * @param Node* x
@@ -561,4 +561,5 @@ Node* BinarySearchTree::balanceTree(Node* node) {
 	//If no rotations are required, i.e. tree is balanced:
 	return node;
 }
+
 
