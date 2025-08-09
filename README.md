@@ -57,4 +57,6 @@ Uncommenting these two lines, then performing a "Print Course List" menu option 
 - Bounds checking for data input (course objects)
 - Successor algorithm to reconnect tree after node removal
 - Algorithms to process tree height and balance
-- Algorithms to perform rotations to self-balance.
+- Algorithms to perform rotations to self-balance. <br><br>
+
+[Back to Project Overview](https://github.com/AnthonyBaratti/AnthonyBaratti.github.io/tree/main?tab=readme-ov-file#cs-499-computer-science-capstone-project-snhu)
