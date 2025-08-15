@@ -46,11 +46,11 @@ There is also a test commented out in the code to ensure balance is preserved.
 Uncommenting these two lines, then performing a "Print Course List" menu option 2 will show the balance of every course in the tree. A perfectly balanced tree that maintains O(log n) should have all balance factors as -1, 0, or 1.<br><br>
 This test shows after selecting option 1 and loading the .csv, then printing the list in order. The tree is balanced because each balance factor is -1, 0, or 1.<br>
 ![PreAddTest](Tests/PreAddTest.png)<br><br>
-This test shows after adding a couple of courses, the self-balancing tree moved the nodes around and rebalanced<br>
-As you can see in the above test, some of the balance factors of courses that existed before the adds have changed to compensate for node rotation and balance<br>
+This test shows after adding a couple of courses, the self-balancing tree moved the nodes around and rebalanced.<br>
+As you can see in the above test, some of the balance factors of courses that existed before the adds have changed to compensate for node rotation and balance.<br><br>
 Example: CSCI300 Balance factor was -1, and now it is 0, meaning it rotated to maintain balance.<br>
 ![PostAddTest](Tests/PostAddTest.png)<br><br>
-This test shows after deleting a couple of courses that the self-balancing tree moved the nodes around and rebalanced<br>
+This test shows after deleting a couple of courses that the self-balancing tree moved the nodes around and rebalanced.<br>
 After the deletes, some of the courses have changed balance factor again, showing that nodes have rotated to maintain -1, 0, or 1.<br>
 ![PostDeleteTest](Tests/PostDeleteTest.png)<br>
 
