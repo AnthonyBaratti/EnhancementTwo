@@ -47,9 +47,9 @@ Uncommenting these two lines, then performing a "Print Course List" menu option 
 This test shows after selecting option 1 and loading the .csv, then printing the list in order. The tree is balanced because each balance factor is -1, 0, or 1.<br>
 ![PreAddTest](Tests/PreAddTest.png)<br><br>
 This test shows after adding a couple of courses, the self-balancing tree moved the nodes around and rebalanced<br>
-![PostAddTest](EnhancementTwo/Tests/PostAddTest.png)<br><br>
+![PostAddTest](Tests/PostAddTest.png)<br><br>
 This test shows after deleting a couple of courses that the self-balancing tree moved the nodes around and rebalanced<br>
-![PostDeleteTest](EnhancementTwo/Tests/PostDeleteTest.png)<br>
+![PostDeleteTest](Tests/PostDeleteTest.png)<br>
 
 
 ## Features
