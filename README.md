@@ -43,7 +43,13 @@ The enhancement was also modularized, using header files and breaking apart the 
 #### NOTE
 There is also a test commented out in the code to ensure balance is preserved.  
 [Balance Factor Print Test](https://github.com/AnthonyBaratti/EnhancementTwo/blob/main/BinarySearchTreeEnhancementTwo/BinarySearchTree.cpp#L134)  
-Uncommenting these two lines, then performing a "Print Course List" menu option 2 will show the balance of every course in the tree. A perfectly balanced tree that maintains O(log n) should have all balance factors as -1, 0, or 1.
+Uncommenting these two lines, then performing a "Print Course List" menu option 2 will show the balance of every course in the tree. A perfectly balanced tree that maintains O(log n) should have all balance factors as -1, 0, or 1.<br><br>
+This test shows after selecting option 1 and loading the .csv, then printing the list in order. The tree is balanced because each balance factor is -1, 0, or 1.<br>
+![PreAddTest](EnhancementTwo/Tests/PreAddTest.png)<br><br>
+This test shows after adding a couple of courses, the self-balancing tree moved the nodes around and rebalanced<br>
+![PostAddTest](EnhancementTwo/Tests/PostAddTest.png)<br><br>
+This test shows after deleting a couple of courses that the self-balancing tree moved the nodes around and rebalanced<br>
+![PostDeleteTest](EnhancementTwo/Tests/PostDeleteTest.png)<br>
 
 
 ## Features
